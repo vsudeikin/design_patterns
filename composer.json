@@ -1,0 +1,39 @@
+{
+    "name": "suval/DesignPatterns",
+    "description" : "Design patterns implementation examples",
+    "authors" : [
+        {
+            "name" : "Valentyn Sudeikin",
+            "email" : "vsudeikin@gmail.com",
+            "homepage" : "http://suval.com.ua"
+        }
+    ],
+    "license" : "GPL",
+    "autoload": {
+        "psr-4": {
+            "SimpleFactory\\":"Creational/SimpleFactory/src/",
+            "FactoryMethod\\":"Creational/FactoryMethod/src/",
+            "AbstractFactory\\":"Creational/AbstractFactory/src/",
+            "Builder\\":"Creational/Builder/src/",
+            "Prototype\\":"Creational/Prototype/src/",
+            "Singleton\\":"Creational/Singleton/src/",
+            "Adapter\\":"Structural/Adapter/src/",
+            "Bridge\\":"Structural/Bridge/src/",
+            "Composite\\":"Structural/Composite/src/",
+            "Decorator\\":"Structural/Decorator/src/",
+            "Facade\\":"Structural/Facade/src/",
+            "Flyweight\\":"Structural/Flyweight/src/",
+            "Proxy\\":"Structural/Proxy/src/",
+            "ChainOfResponsibility\\":"Behavioral/ChainOfResponsibility/src/",
+            "Command\\":"Behavioral/Command/src/",
+            "Iterator\\":"Behavioral/Iterator/src/",
+            "Mediator\\":"Behavioral/Mediator/src/",
+            "Memento\\":"Behavioral/Memento/src/",
+            "Observer\\":"Behavioral/Observer/src/",
+            "State\\":"Behavioral/State/src/",
+            "Strategy\\":"Behavioral/Strategy/src/",
+            "TemplateMethod\\":"Behavioral/TemplateMethod/src/",
+            "Visitor\\":"Behavioral/Visitor/src/"
+        }
+    }
+}
